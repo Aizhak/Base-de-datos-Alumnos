@@ -1,0 +1,39 @@
+1.- prototipo y tabla hash en base a las siguientes propiedades
+Nombre
+Apellidos
+Edad
+Materias inscritas
+Calificaciones
+ se agregan en ese orden por defecto para facilitar otras comparaciones futuras
+
+
+2.- Alta de alumnos
+se puede dar de alta e incribir a alumnos por medio del nombre la edad y la materia en el formulario alta de alumno
+se fa asignand la materia al alumno al darlo de alta
+
+
+
+3.- Después deberas crear funciones y vistas que les ayuden a hacer lo siguiente:
+ en el area calificar se puede agregar una calificacion a un alumno, por defecto es de cero. para esto
+se usa push y pop sobre el arreglo dentro de la tabla hash
+
+4.- Ya que tengan sus grupos con alumnos, deberán crear e implementar las siguientes funciones:
+ en el area buscar, se puede buscar a un alumno por nombre apellidos y materia, si el alumno no esta inscrito en la materia
+saltara un ventana de alerta
+
+Al buscar al alumno se muestra su calificacion en dicha materia.
+
+mediante informacion del grupo se puede revisar toda la tabla hash en busca de  alumnos por materia y desplegara una lista
+de nombres junto con las calificaciones asignadas
+
+
+DETALLES Y bug
+
++El registro y busquedas se pueden hacer tanto en minusculas o mayusculas
+
+- Se pueden agregar hasta 127 materias y alumnos, pero un alumno solo se puede inscribir a una materia solamente, por ahora
+ -la lista de alumnos no se puede ordernar  en orden asendente y descendente aun
+- falta de un boton para limpiar la busqueda de alumnos y la seccion de informacion de grupo
+- Aun no se puede adquirir el promedio del grupo
+- faltan algunas alertas en las secciones informacion de grupo y calificar
+-mejorar el dise;o responsive

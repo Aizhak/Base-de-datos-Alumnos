@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Alta alumno</title>
+</head>
+<body>
+
+    <section class="contentbox">
+
+    <section class="contenedor alta">
+        <h2> Alta de alumno</h2>
+            <form action="" class="formulario" id="formularioAlta" name="formulario">
+                
+                <div class="inputGroup">
+                    <label for="nombre" class="label">Nombre:</label>
+                    <input type="text" name="nombre" id="a_nombre" placeholder="Nombre">
+                </div>
+
+                <div class="inputGroup">
+                    <label for="apellidos" class="label">Apellidos:</label>
+                    <input type="text" name="apellidos" id="a_apellidos" placeholder="Apellidos">
+                </div>
+                <div class="inputGroup">
+                    <label for="edad">Edad:</label>
+                    <input type="text" name="edad" id="a_edad" placeholder="edad">
+                </div>
+                <div class="inputGroup">
+                    <label for="clase">Materia</label>
+                    <input type="text" name="clase" id="a_clase" placeholder="Grupo">
+                </div>
+                
+                <button type="button" value="Click me" id="botonAlta" onclick="persona.alta()">Enviar</button>
+    
+            </form>
+        </section>
+
+        <section class="contenedor calificacion">
+            <h2> calificar </h2>
+            <form action="" class="formulario" id="formularioCalificacion" name="formulario">
+                
+                <div class="inputGroup">
+                    <label for="nombre" class="label">Nombre:</label>
+                    <input type="text" name="nombre" id="c_nombre" placeholder="Nombre">
+                </div>
+
+                <div class="inputGroup">
+                    <label for="apellidos" class="label">Apellidos:</label>
+                    <input type="text" name="apellidos" id="c_apellidos" placeholder="Apellidos">
+                </div>
+
+                <div class="inputGroup">
+                    <label for="clase">Grupo:</label>
+                    <input type="text" name="clase" id="c_clase" placeholder="Grupo">
+                </div>
+
+                <div class="inputGroup">
+                    <label for="clase">Ingrese la calificacion</label>
+                    <input type="text" name="clase" id="calificacion" placeholder="">
+                </div>
+
+                <button type="button" value="Click me" id="botonCalificacion" onclick="persona.calificar()">Enviar</button>
+            </form>
+
+        </section>
+
+        <section class="contenedor buscar">
+            
+
+            <form action="" class="form_buscar" id="formularioBuscar" name="formulario">
+                <h2> Buscar</h2>
+                <div class="inputGroup">
+                    <label for="nombre" class="label">Nombre:</label>
+                    <input type="text" name="nombre" id="b_nombre" placeholder="Nombre">
+                </div>
+                <div class="inputGroup">
+                    <label for="nombre" class="label">Apellidos:</label>
+                    <input type="text" name="apellidos" id="b_apellidos" placeholder="Apellidos">
+                </div>
+
+                <div class="inputGroup">
+                    <label for="clase">Grupo:</label>
+                    <input type="text" name="clase" id="b_clase" placeholder="Clase">
+                </div>
+    
+                <button type="button" value="Click me" id="botonAlumno" onclick="persona.buscar()">Enviar</button>
+            </form>
+
+            <form action="" class="form_promedio" id="formularioPromedio" name="formulario">
+                <h2>Datos Alumno</h2>
+                <div class="inputGroup">
+                    <h3 Id="promedio">*</h3>
+                </div>
+            </form>
+
+
+            <form action="" class="formgrupo" id="formularioGrupo" name="formulario">
+                <h2>Informacion del grupo</h2>
+                
+                <div class="inputGroup">
+                    <label for="clase">Ingrese el grupo</label>
+                    <input type="text" name="clase" id="clase" placeholder="Clase">
+                </div>
+    
+                <button type="button" value="Click me" id="botonGrupo" onclick="persona.lista()">Enviar</button>
+                <div class="lista">**************</div>
+            </form>
+
+
+
+        </section>
+    </section>
+</section>
+    
+</body>
+
+<script src="./js/alumno.js"></script>
+</html>

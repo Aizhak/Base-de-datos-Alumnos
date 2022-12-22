@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #747171;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.contentbox {
+  width: 90%;
+  max-width: 700px;
+  height: 90vh;
+  min-height: 770px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contentbox .contenedor {
+  max-height: 250px ;
+  background-color: #32fca8;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.contentbox .contenedor label {
+  display: block;
+}
+.contentbox .contenedor input {
+  width: 100%;
+}
+.contentbox .buscar {
+  width: 93%;
+  max-height: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.contentbox .buscar .form_promedio {
+  border: solid #575252;
+  width: 54%;
+  max-width: 330px;
+  min-width: 260px;
+  padding: 5px;
+  margin: 10px;
+}
+.contentbox .buscar .form_promedio h2 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.contentbox .buscar .form_promedio h3 {
+  font-size: 1.6rem;
+  text-align: left;
+  margin: 0.45rem;
+}
+.contentbox .buscar .form_buscar {
+  border: solid #575252;
+  width: 60vw;
+  max-width: 260px;
+  padding: 5px;
+  margin: 10px;
+}
+.contentbox .buscar .formgrupo {
+  display: flex;
+  flex-direction: column;
+  border: solid #575252;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.contentbox .buscar .formgrupo label {
+  display: block;
+}
+.contentbox .buscar .formgrupo input {
+  width: 100%;
+}
+.contentbox .buscar .formgrupo .lista {
+  font-size: 1.4rem;
+  text-align: justify;
+  margin: auto;
+}
+.contentbox button {
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 2px solid #747171;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  width: 5rem;
+  height: 1.9rem;
+  outline: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.contentbox button:hover {
+  background: #5a5858;
+}
+h2 {
+  text-align: center;
+  color: #2c2c2c;
+}
